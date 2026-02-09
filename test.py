@@ -1,4 +1,7 @@
-print('hello world')
-print('hello user')
+def f(x):
+    return x ** 2
 
-a = 2 * 5 + 10
+print('hello world')
+print('hi user')
+
+a = 2 * f(5) + 10
