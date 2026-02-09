@@ -1,4 +1,6 @@
-print('hello world')
-print('hello user')
+name = input('введите ваше имя')
 
-a = 2 * 5 + 10
+print('hello world')
+print(f'hello {name}')
+
+a = 2 * 55 + 10
