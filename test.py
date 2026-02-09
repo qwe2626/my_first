@@ -1,7 +1,11 @@
+
 def f(x):
     return x ** 2
 
-print('hello world')
-print('hi user')
+name = input('введите ваше имя')
 
-a = 2 * f(5) + 10
+print('hello world')
+print(f'hi {name}')
+
+a = 2 * f(55) + 10
+
